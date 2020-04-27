@@ -9,13 +9,13 @@
 ## 用法
 
 ```shell
-wget -qO natcfg.sh http://arloor.com/sh/iptablesUtils/natcfg.sh && bash natcfg.sh
+wget -qO natcfg.sh https://raw.githubusercontent.com/forevergooe/iptablesUtils/master/natcfg.sh && bash natcfg.sh
 ```
 
 或
 
 ```
-wget -qO natcfg.sh https://raw.githubusercontent.com/forevergooe/iptablesUtils/master/natcfg.sh && bash natcfg.sh
+wget -qO natcfg.sh https://las.mikcool.site/files/iptables/natcfg.sh && bash natcfg.sh
 ```
 
 输出如下：
