@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# wget  https://raw.githubusercontent.com/arloor/iptablesUtils/master/iptables.sh;bash iptables.sh;rm -f iptables.sh;
+# wget  https://raw.githubusercontent.com/forevergooe/iptablesUtils/master/iptables.sh;bash iptables.sh;rm -f iptables.sh;
 
 red="\033[31m"
 black="\033[0m"
