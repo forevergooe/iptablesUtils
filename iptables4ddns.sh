@@ -1,5 +1,5 @@
 #! /bin/bash
-# rm -f iptables4ddns.sh;wget  https://raw.githubusercontent.com/arloor/iptablesUtils/master/iptables4ddns.sh;bash iptables4ddns.sh $localport $remoteport $remotehost [ $remoteIpTempfile——暂存ddns的目标ip,用于定时任务判断时候需要更新iptables转发 ];
+# rm -f iptables4ddns.sh;wget  https://raw.githubusercontent.com/forevergooe/iptablesUtils/master/iptables4ddns.sh;bash iptables4ddns.sh $localport $remoteport $remotehost [ $remoteIpTempfile——暂存ddns的目标ip,用于定时任务判断时候需要更新iptables转发 ];
 
 
 
