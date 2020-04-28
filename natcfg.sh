@@ -10,6 +10,9 @@ touch $conf
 echo -e "${red}用途${black}: 便捷的设置iptables端口转发"
 echo -e "${red}注意1${black}: 到域名的转发规则在添加后需要等待2分钟才会生效，且在机器重启后仍然有效"
 echo -e "${red}注意2${black}: 到IP的转发规则在重启后会失效，这是iptables的特性"
+echo -e "${red}提示${black}: 如果希望到IP的规则持久化，推荐使用nip.io或者xip.io免费ip-dns反射服务
+      例如，104.32.15.23 可以写成 104-32-15-23.nip.io 作为域名进行设置
+（Ubuntu系列、Debian系列不受以上重启失效限制）"
 echo
 setupService(){
     wget -qO /usr/local/bin/dnat.sh https://raw.githubusercontent.com/forevergooe/iptablesUtils/master/dnat.sh||{
